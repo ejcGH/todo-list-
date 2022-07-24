@@ -1,0 +1,98 @@
+body {
+  height: 100vh;
+  color: #333;
+  background-image: linear-gradient(to top left, #daeeef 0%, #556654 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo-box {
+  display: inline-flex;
+  background-color: #f0ebeb;
+  height: 500px;
+  width: 600px;
+  text-align: center;
+  justify-content: center;
+  box-shadow: 0 3rem 4rem rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+}
+
+form {
+  margin: 20px;
+}
+.addButton {
+  margin-left: 10px;
+}
+
+#button {
+  padding: 5px 15px;
+  font-size: 20px;
+  background-color: rgb(93, 166, 225);
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#button:hover {
+  background: rgb(40, 102, 227);
+}
+
+label {
+  font-size: 18px;
+  color: darkgrey;
+  margin-top: 10px;
+  padding-right: 10px;
+}
+
+#input {
+  width: 200px;
+  height: 30px;
+}
+
+h2 {
+  color: darkgrey;
+  font-size: 18px;
+}
+
+.todo {
+  margin: 0.5rem;
+  background: rgb(93, 166, 225);
+  color: rgb(248, 248, 248);
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.complete-btn {
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  margin-left: 5px;
+  background-color: rgb(93, 166, 225);
+  border-color: white;
+  border-style: solid;
+  border-width: 1.5px;
+}
+
+.complete-btn:hover {
+  background: rgb(40, 102, 227);
+}
+
+.delete-btn {
+  background-color: rgb(93, 166, 225);
+  color: rgb(216, 216, 216);
+  border-color: white;
+  border: none;
+}
+
+.delete-btn:hover {
+  background: rgb(159, 162, 169);
+  cursor: pointer;
+}
+.todo-item {
+  list-style: none;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Todo List</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-box">
+        <div class="tasks-column">
+          <header>
+            <form name="taskForm" action="" method="get">
+              <label>Enter Task</label>
+              <input
+                type="text"
+                name="inputbox"
+                id="input"
+                placeholder="Enter a task"
+              />
+
+              <input
+                type="button"
+                name="button1"
+                value="Add"
+                class="addButton"
+                id="button"
+              />
+            </form>
+          </header>
+
+          <h2>Pending Tasks</h2>
+          <div class="task-container">
+            <ul class="todo-list"></ul>
+          </div>
+          <h2>Completed Tasks</h2>
+          <div class="task-complete removetask"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="/javascript.js"></script>
+</html>
